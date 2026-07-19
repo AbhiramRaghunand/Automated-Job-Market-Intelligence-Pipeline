@@ -23,8 +23,8 @@ jobs:
 
       - name: Run ingestion script
         env:
-          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
-          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.APP_KEY }}
         run: python ingest.py
 
       - name: Commit and push new data
@@ -42,7 +42,7 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_APP_PASSWORD }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "Daily Job Ingestion Failed"
           to: abhiram261104@gmail.com
           from: Job Market Pipeline
