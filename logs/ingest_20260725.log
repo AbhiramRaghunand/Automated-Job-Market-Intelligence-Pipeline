@@ -1,0 +1,30 @@
+2026-07-25 05:59:33,542 [INFO] Starting daily ingestion run
+2026-07-25 05:59:38,206 [INFO] [1/16] what='SDE' where='Bangalore' -> 60 jobs collected
+2026-07-25 05:59:42,672 [INFO] [2/16] what='SDE' where='Hyderabad' -> 60 jobs collected
+2026-07-25 05:59:46,951 [INFO] [3/16] what='SDE' where='Pune' -> 44 jobs collected
+2026-07-25 05:59:48,523 [INFO] [4/16] what='SDE' where='Delhi' page=2 -> no more results, stopping pagination
+2026-07-25 05:59:48,523 [INFO] [4/16] what='SDE' where='Delhi' -> 18 jobs collected
+2026-07-25 05:59:53,246 [INFO] [5/16] what='Data Scientist' where='Bangalore' -> 60 jobs collected
+2026-07-25 05:59:57,586 [INFO] [6/16] what='Data Scientist' where='Hyderabad' -> 60 jobs collected
+2026-07-25 06:00:06,727 [INFO] [7/16] what='Data Scientist' where='Pune' -> 60 jobs collected
+2026-07-25 06:00:06,898 [ERROR] [8/16] what='Data Scientist' where='Delhi' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=Data+Scientist&where=Delhi
+2026-07-25 06:00:06,899 [WARNING] [8/16] what='Data Scientist' where='Delhi' -> 0 total jobs collected
+2026-07-25 06:00:07,054 [ERROR] [9/16] what='ML Engineer' where='Bangalore' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=ML+Engineer&where=Bangalore
+2026-07-25 06:00:07,054 [WARNING] [9/16] what='ML Engineer' where='Bangalore' -> 0 total jobs collected
+2026-07-25 06:00:07,202 [ERROR] [10/16] what='ML Engineer' where='Hyderabad' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=ML+Engineer&where=Hyderabad
+2026-07-25 06:00:07,203 [WARNING] [10/16] what='ML Engineer' where='Hyderabad' -> 0 total jobs collected
+2026-07-25 06:00:07,348 [ERROR] [11/16] what='ML Engineer' where='Pune' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=ML+Engineer&where=Pune
+2026-07-25 06:00:07,349 [WARNING] [11/16] what='ML Engineer' where='Pune' -> 0 total jobs collected
+2026-07-25 06:00:07,497 [ERROR] [12/16] what='ML Engineer' where='Delhi' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=ML+Engineer&where=Delhi
+2026-07-25 06:00:07,498 [WARNING] [12/16] what='ML Engineer' where='Delhi' -> 0 total jobs collected
+2026-07-25 06:00:07,642 [ERROR] [13/16] what='Data Analyst' where='Bangalore' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=Data+Analyst&where=Bangalore
+2026-07-25 06:00:07,643 [WARNING] [13/16] what='Data Analyst' where='Bangalore' -> 0 total jobs collected
+2026-07-25 06:00:07,796 [ERROR] [14/16] what='Data Analyst' where='Hyderabad' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=Data+Analyst&where=Hyderabad
+2026-07-25 06:00:07,796 [WARNING] [14/16] what='Data Analyst' where='Hyderabad' -> 0 total jobs collected
+2026-07-25 06:00:07,942 [ERROR] [15/16] what='Data Analyst' where='Pune' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=Data+Analyst&where=Pune
+2026-07-25 06:00:07,943 [WARNING] [15/16] what='Data Analyst' where='Pune' -> 0 total jobs collected
+2026-07-25 06:00:16,485 [ERROR] [16/16] what='Data Analyst' where='Delhi' page=2 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/2?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=Data+Analyst&where=Delhi
+2026-07-25 06:00:16,486 [INFO] [16/16] what='Data Analyst' where='Delhi' -> 20 jobs collected
+2026-07-25 06:00:16,486 [INFO] RUN SUMMARY: 16 combos run, 8 returned 0 results, 9 failed outright, 382 total jobs collected
+2026-07-25 06:00:16,499 [INFO] Raw API response stored successfully at: /home/runner/work/Automated-Job-Market-Intelligence-Pipeline/Automated-Job-Market-Intelligence-Pipeline/data/raw/daily_pull_20260725_060016.json
+2026-07-25 06:00:16,499 [INFO] Ingestion run complete
