@@ -1,0 +1,21 @@
+2026-07-28 06:06:46,844 [INFO] Starting daily ingestion run
+2026-07-28 06:06:51,368 [INFO] [1/16] what='SDE' where='Bangalore' -> 60 jobs collected
+2026-07-28 06:06:55,809 [INFO] [2/16] what='SDE' where='Hyderabad' -> 60 jobs collected
+2026-07-28 06:07:00,125 [INFO] [3/16] what='SDE' where='Pune' -> 43 jobs collected
+2026-07-28 06:07:01,815 [INFO] [4/16] what='SDE' where='Delhi' page=2 -> no more results, stopping pagination
+2026-07-28 06:07:01,815 [INFO] [4/16] what='SDE' where='Delhi' -> 18 jobs collected
+2026-07-28 06:07:06,402 [INFO] [5/16] what='Data Scientist' where='Bangalore' -> 60 jobs collected
+2026-07-28 06:07:10,956 [INFO] [6/16] what='Data Scientist' where='Hyderabad' -> 60 jobs collected
+2026-07-28 06:07:15,401 [INFO] [7/16] what='Data Scientist' where='Pune' -> 60 jobs collected
+2026-07-28 06:07:20,161 [INFO] [8/16] what='Data Scientist' where='Delhi' -> 60 jobs collected
+2026-07-28 06:07:24,631 [INFO] [9/16] what='ML Engineer' where='Bangalore' -> 60 jobs collected
+2026-07-28 06:07:29,171 [INFO] [10/16] what='ML Engineer' where='Hyderabad' -> 60 jobs collected
+2026-07-28 06:07:33,694 [INFO] [11/16] what='ML Engineer' where='Pune' -> 60 jobs collected
+2026-07-28 06:07:38,078 [INFO] [12/16] what='ML Engineer' where='Delhi' -> 53 jobs collected
+2026-07-28 06:07:42,309 [INFO] [13/16] what='Data Analyst' where='Bangalore' -> 60 jobs collected
+2026-07-28 06:07:46,837 [INFO] [14/16] what='Data Analyst' where='Hyderabad' -> 60 jobs collected
+2026-07-28 06:07:51,324 [INFO] [15/16] what='Data Analyst' where='Pune' -> 60 jobs collected
+2026-07-28 06:07:55,365 [INFO] [16/16] what='Data Analyst' where='Delhi' -> 46 jobs collected
+2026-07-28 06:07:55,365 [INFO] RUN SUMMARY: 16 combos run, 0 returned 0 results, 0 failed outright, 880 total jobs collected
+2026-07-28 06:07:55,396 [INFO] Raw API response stored successfully at: /home/runner/work/Automated-Job-Market-Intelligence-Pipeline/Automated-Job-Market-Intelligence-Pipeline/data/raw/daily_pull_20260728_060755.json
+2026-07-28 06:07:55,396 [INFO] Ingestion run complete
