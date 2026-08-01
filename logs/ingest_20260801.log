@@ -1,0 +1,22 @@
+2026-08-01 06:12:46,596 [INFO] Starting daily ingestion run
+2026-08-01 06:12:50,932 [INFO] [1/16] what='SDE' where='Bangalore' -> 60 jobs collected
+2026-08-01 06:12:55,530 [INFO] [2/16] what='SDE' where='Hyderabad' -> 60 jobs collected
+2026-08-01 06:12:59,720 [INFO] [3/16] what='SDE' where='Pune' -> 41 jobs collected
+2026-08-01 06:13:01,284 [INFO] [4/16] what='SDE' where='Delhi' page=2 -> no more results, stopping pagination
+2026-08-01 06:13:01,284 [INFO] [4/16] what='SDE' where='Delhi' -> 18 jobs collected
+2026-08-01 06:13:06,055 [INFO] [5/16] what='Data Scientist' where='Bangalore' -> 60 jobs collected
+2026-08-01 06:13:10,514 [INFO] [6/16] what='Data Scientist' where='Hyderabad' -> 60 jobs collected
+2026-08-01 06:13:14,949 [INFO] [7/16] what='Data Scientist' where='Pune' -> 60 jobs collected
+2026-08-01 06:13:19,591 [INFO] [8/16] what='Data Scientist' where='Delhi' -> 60 jobs collected
+2026-08-01 06:13:23,931 [INFO] [9/16] what='ML Engineer' where='Bangalore' -> 60 jobs collected
+2026-08-01 06:13:28,691 [INFO] [10/16] what='ML Engineer' where='Hyderabad' -> 60 jobs collected
+2026-08-01 06:13:33,279 [INFO] [11/16] what='ML Engineer' where='Pune' -> 60 jobs collected
+2026-08-01 06:13:36,283 [INFO] [12/16] what='ML Engineer' where='Delhi' page=3 -> no more results, stopping pagination
+2026-08-01 06:13:36,283 [INFO] [12/16] what='ML Engineer' where='Delhi' -> 34 jobs collected
+2026-08-01 06:13:40,383 [INFO] [13/16] what='Data Analyst' where='Bangalore' -> 60 jobs collected
+2026-08-01 06:13:44,926 [INFO] [14/16] what='Data Analyst' where='Hyderabad' -> 60 jobs collected
+2026-08-01 06:13:49,750 [INFO] [15/16] what='Data Analyst' where='Pune' -> 60 jobs collected
+2026-08-01 06:13:54,014 [INFO] [16/16] what='Data Analyst' where='Delhi' -> 46 jobs collected
+2026-08-01 06:13:54,015 [INFO] RUN SUMMARY: 16 combos run, 0 returned 0 results, 0 failed outright, 859 total jobs collected
+2026-08-01 06:13:54,043 [INFO] Raw API response stored successfully at: /home/runner/work/Automated-Job-Market-Intelligence-Pipeline/Automated-Job-Market-Intelligence-Pipeline/data/raw/daily_pull_20260801_061354.json
+2026-08-01 06:13:54,043 [INFO] Ingestion run complete
