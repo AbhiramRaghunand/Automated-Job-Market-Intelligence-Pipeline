@@ -1,0 +1,23 @@
+2026-08-08 04:32:48,473 [INFO] Starting daily ingestion run
+2026-08-08 04:32:53,326 [INFO] [1/16] what='SDE' where='Bangalore' -> 60 jobs collected
+2026-08-08 04:32:57,787 [INFO] [2/16] what='SDE' where='Hyderabad' -> 60 jobs collected
+2026-08-08 04:33:01,235 [INFO] [3/16] what='SDE' where='Pune' page=3 -> no more results, stopping pagination
+2026-08-08 04:33:01,235 [INFO] [3/16] what='SDE' where='Pune' -> 40 jobs collected
+2026-08-08 04:33:03,397 [INFO] [4/16] what='SDE' where='Delhi' page=2 -> no more results, stopping pagination
+2026-08-08 04:33:03,398 [INFO] [4/16] what='SDE' where='Delhi' -> 16 jobs collected
+2026-08-08 04:33:07,975 [INFO] [5/16] what='Data Scientist' where='Bangalore' -> 60 jobs collected
+2026-08-08 04:33:12,786 [INFO] [6/16] what='Data Scientist' where='Hyderabad' -> 60 jobs collected
+2026-08-08 04:33:17,435 [INFO] [7/16] what='Data Scientist' where='Pune' -> 60 jobs collected
+2026-08-08 04:33:22,028 [INFO] [8/16] what='Data Scientist' where='Delhi' -> 60 jobs collected
+2026-08-08 04:33:26,528 [INFO] [9/16] what='ML Engineer' where='Bangalore' -> 60 jobs collected
+2026-08-08 04:33:31,291 [INFO] [10/16] what='ML Engineer' where='Hyderabad' -> 60 jobs collected
+2026-08-08 04:33:35,980 [INFO] [11/16] what='ML Engineer' where='Pune' -> 60 jobs collected
+2026-08-08 04:33:39,127 [INFO] [12/16] what='ML Engineer' where='Delhi' page=3 -> no more results, stopping pagination
+2026-08-08 04:33:39,128 [INFO] [12/16] what='ML Engineer' where='Delhi' -> 30 jobs collected
+2026-08-08 04:33:43,642 [INFO] [13/16] what='Data Analyst' where='Bangalore' -> 60 jobs collected
+2026-08-08 04:33:48,179 [INFO] [14/16] what='Data Analyst' where='Hyderabad' -> 60 jobs collected
+2026-08-08 04:33:53,018 [INFO] [15/16] what='Data Analyst' where='Pune' -> 60 jobs collected
+2026-08-08 04:33:57,457 [INFO] [16/16] what='Data Analyst' where='Delhi' -> 46 jobs collected
+2026-08-08 04:33:57,457 [INFO] RUN SUMMARY: 16 combos run, 0 returned 0 results, 0 failed outright, 852 total jobs collected
+2026-08-08 04:33:57,479 [INFO] Raw API response stored successfully at: /home/runner/work/Automated-Job-Market-Intelligence-Pipeline/Automated-Job-Market-Intelligence-Pipeline/data/raw/daily_pull_20260808_043357.json
+2026-08-08 04:33:57,479 [INFO] Ingestion run complete
