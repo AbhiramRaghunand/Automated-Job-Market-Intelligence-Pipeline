@@ -1,0 +1,24 @@
+2026-08-18 04:03:58,578 [INFO] Starting daily ingestion run
+2026-08-18 04:04:09,838 [INFO] [1/16] what='SDE' where='Bangalore' -> 60 jobs collected
+2026-08-18 04:04:10,048 [ERROR] [2/16] what='SDE' where='Hyderabad' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=SDE&where=Hyderabad
+2026-08-18 04:04:10,049 [WARNING] [2/16] what='SDE' where='Hyderabad' -> 0 total jobs collected
+2026-08-18 04:04:17,292 [INFO] [3/16] what='SDE' where='Pune' page=3 -> no more results, stopping pagination
+2026-08-18 04:04:17,293 [INFO] [3/16] what='SDE' where='Pune' -> 34 jobs collected
+2026-08-18 04:04:20,987 [INFO] [4/16] what='SDE' where='Delhi' page=2 -> no more results, stopping pagination
+2026-08-18 04:04:20,988 [INFO] [4/16] what='SDE' where='Delhi' -> 17 jobs collected
+2026-08-18 04:04:30,445 [INFO] [5/16] what='Data Scientist' where='Bangalore' -> 60 jobs collected
+2026-08-18 04:04:41,011 [INFO] [6/16] what='Data Scientist' where='Hyderabad' -> 60 jobs collected
+2026-08-18 04:04:49,681 [INFO] [7/16] what='Data Scientist' where='Pune' -> 60 jobs collected
+2026-08-18 04:04:58,671 [INFO] [8/16] what='Data Scientist' where='Delhi' -> 60 jobs collected
+2026-08-18 04:05:08,985 [INFO] [9/16] what='ML Engineer' where='Bangalore' -> 60 jobs collected
+2026-08-18 04:05:19,482 [INFO] [10/16] what='ML Engineer' where='Hyderabad' -> 60 jobs collected
+2026-08-18 04:05:28,702 [INFO] [11/16] what='ML Engineer' where='Pune' -> 60 jobs collected
+2026-08-18 04:05:35,029 [INFO] [12/16] what='ML Engineer' where='Delhi' page=3 -> no more results, stopping pagination
+2026-08-18 04:05:35,029 [INFO] [12/16] what='ML Engineer' where='Delhi' -> 27 jobs collected
+2026-08-18 04:05:43,395 [INFO] [13/16] what='Data Analyst' where='Bangalore' -> 60 jobs collected
+2026-08-18 04:05:51,867 [INFO] [14/16] what='Data Analyst' where='Hyderabad' -> 60 jobs collected
+2026-08-18 04:05:58,630 [INFO] [15/16] what='Data Analyst' where='Pune' -> 60 jobs collected
+2026-08-18 04:06:07,145 [INFO] [16/16] what='Data Analyst' where='Delhi' -> 54 jobs collected
+2026-08-18 04:06:07,145 [INFO] RUN SUMMARY: 16 combos run, 1 returned 0 results, 1 failed outright, 792 total jobs collected
+2026-08-18 04:06:07,169 [INFO] Raw API response stored successfully at: /home/runner/work/Automated-Job-Market-Intelligence-Pipeline/Automated-Job-Market-Intelligence-Pipeline/data/raw/daily_pull_20260818_040607.json
+2026-08-18 04:06:07,169 [INFO] Ingestion run complete
