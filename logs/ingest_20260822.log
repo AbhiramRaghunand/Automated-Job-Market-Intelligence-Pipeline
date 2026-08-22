@@ -1,0 +1,27 @@
+2026-08-22 04:01:52,258 [INFO] Starting daily ingestion run
+2026-08-22 04:01:56,185 [ERROR] [1/16] what='SDE' where='Bangalore' page=2 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/2?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=SDE&where=Bangalore
+2026-08-22 04:01:56,186 [INFO] [1/16] what='SDE' where='Bangalore' -> 20 jobs collected
+2026-08-22 04:02:03,986 [ERROR] [2/16] what='SDE' where='Hyderabad' page=3 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/3?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=SDE&where=Hyderabad
+2026-08-22 04:02:03,987 [INFO] [2/16] what='SDE' where='Hyderabad' -> 40 jobs collected
+2026-08-22 04:02:10,864 [INFO] [3/16] what='SDE' where='Pune' page=3 -> no more results, stopping pagination
+2026-08-22 04:02:10,865 [INFO] [3/16] what='SDE' where='Pune' -> 33 jobs collected
+2026-08-22 04:02:14,730 [INFO] [4/16] what='SDE' where='Delhi' page=2 -> no more results, stopping pagination
+2026-08-22 04:02:14,730 [INFO] [4/16] what='SDE' where='Delhi' -> 17 jobs collected
+2026-08-22 04:02:24,561 [INFO] [5/16] what='Data Scientist' where='Bangalore' -> 60 jobs collected
+2026-08-22 04:02:28,249 [ERROR] [6/16] what='Data Scientist' where='Hyderabad' page=2 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/2?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=Data+Scientist&where=Hyderabad
+2026-08-22 04:02:28,250 [INFO] [6/16] what='Data Scientist' where='Hyderabad' -> 20 jobs collected
+2026-08-22 04:02:28,426 [ERROR] [7/16] what='Data Scientist' where='Pune' page=1 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=Data+Scientist&where=Pune
+2026-08-22 04:02:28,427 [WARNING] [7/16] what='Data Scientist' where='Pune' -> 0 total jobs collected
+2026-08-22 04:02:38,544 [INFO] [8/16] what='Data Scientist' where='Delhi' -> 60 jobs collected
+2026-08-22 04:02:48,632 [INFO] [9/16] what='ML Engineer' where='Bangalore' -> 60 jobs collected
+2026-08-22 04:02:58,769 [INFO] [10/16] what='ML Engineer' where='Hyderabad' -> 60 jobs collected
+2026-08-22 04:03:09,381 [INFO] [11/16] what='ML Engineer' where='Pune' -> 60 jobs collected
+2026-08-22 04:03:12,716 [ERROR] [12/16] what='ML Engineer' where='Delhi' page=2 -> HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://api.adzuna.com/v1/api/jobs/in/search/2?app_id=7dd779d3&app_key=f5aaa50d6d451c4bea39818b32a4523b&results_per_page=20&what=ML+Engineer&where=Delhi
+2026-08-22 04:03:12,717 [INFO] [12/16] what='ML Engineer' where='Delhi' -> 20 jobs collected
+2026-08-22 04:03:23,419 [INFO] [13/16] what='Data Analyst' where='Bangalore' -> 60 jobs collected
+2026-08-22 04:03:33,566 [INFO] [14/16] what='Data Analyst' where='Hyderabad' -> 60 jobs collected
+2026-08-22 04:03:41,990 [INFO] [15/16] what='Data Analyst' where='Pune' -> 60 jobs collected
+2026-08-22 04:03:50,306 [INFO] [16/16] what='Data Analyst' where='Delhi' -> 59 jobs collected
+2026-08-22 04:03:50,306 [INFO] RUN SUMMARY: 16 combos run, 1 returned 0 results, 5 failed outright, 689 total jobs collected
+2026-08-22 04:03:50,331 [INFO] Raw API response stored successfully at: /home/runner/work/Automated-Job-Market-Intelligence-Pipeline/Automated-Job-Market-Intelligence-Pipeline/data/raw/daily_pull_20260822_040350.json
+2026-08-22 04:03:50,331 [INFO] Ingestion run complete
